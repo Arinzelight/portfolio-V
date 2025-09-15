@@ -146,12 +146,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I am a results-driven Full-Stack Software Engineer with 3+ years of experience
-              designing and delivering high-performance, scalable, and user-centric applications. I
-              create seamless digital experiences by integrating modern front-end frameworks with
-              robust back-end systems, building solutions that drive measurable business impact.
-              Passionate about innovation and problem solving, I have contributed to impactful
-              projects across e-commerce, fintech, and SaaS industries.
+              Hello! My name is Harry, a results-driven Full-Stack Software Engineer with 3+ years
+              of experience designing and delivering high-performance, scalable, and user-centric
+              applications. I create seamless digital experiences by integrating modern front-end
+              frameworks with robust back-end systems, building solutions that drive measurable
+              business impact. Passionate about innovation and problem solving, I have contributed
+              to impactful projects across e-commerce, fintech, and SaaS industries.
             </p>
 
             <p>

@@ -17,6 +17,13 @@ const StyledHeroSection = styled.section`
     padding-top: var(--nav-height);
   }
 
+  /* On small screens, let content flow naturally and add top margin */
+  @media (max-width: 868px) {
+    height: auto;
+    min-height: auto;
+    margin-top: 10rem;
+  }
+
   h1 {
     margin: 0 0 30px 4px;
     color: var(--green);
@@ -65,11 +72,11 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
+        I am a software engineer with a passion for creating exceptional digital experiences,
+        blending development and design when needed. Currently, I focus on building accessible,
+        human-centered products at
         <a href="https://edubridge.com.ng/" target="_blank" rel="noreferrer">
-          edubridge
+          Edubridge
         </a>
         .
       </p>
