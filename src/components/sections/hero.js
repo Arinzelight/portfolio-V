@@ -17,13 +17,6 @@ const StyledHeroSection = styled.section`
     padding-top: var(--nav-height);
   }
 
-  /* On small screens, let content flow naturally and add top margin */
-  @media (max-width: 868px) {
-    height: auto;
-    min-height: auto;
-    margin-top: 10rem;
-  }
-
   h1 {
     margin: 0 0 30px 4px;
     color: var(--green);
