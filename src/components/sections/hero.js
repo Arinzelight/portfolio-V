@@ -67,9 +67,9 @@ const Hero = () => {
       <p>
         I am a software engineer with a passion for creating exceptional digital experiences,
         blending development and design when needed. Currently, I focus on building accessible,
-        human-centered products
+        human-centered products at {''}
         <a href="https://edubridge.com.ng/" target="_blank" rel="noreferrer">
-          @Edubridge
+          Edubridge
         </a>
         .
       </p>
