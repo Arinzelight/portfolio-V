@@ -146,7 +146,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm a results-driven Full-Stack Software Engineer with 3+ years of experience
+              I'm a results-driven Full-Stack Software Engineer with 4 years of experience
               designing and delivering high-performance, scalable, and user-centric applications. I
               create seamless digital experiences by integrating modern front-end frameworks with
               robust back-end systems, building solutions that drive measurable business impact.
