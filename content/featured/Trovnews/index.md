@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'Trovnews'
-cover: './demo.png'
+cover: './trovnews.png'
 github: 'https://github.com/Arinzelight'
 external: 'https://trovnews.com/'
 tech:

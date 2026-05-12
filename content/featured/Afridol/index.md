@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Afridol'
-cover: './demo.png'
+cover: './afridol.png'
 external: 'https://www.afridol.com'
 cta: 'https://www.afridol.com'
 tech:

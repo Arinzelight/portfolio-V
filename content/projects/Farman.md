@@ -2,7 +2,7 @@
 date: '2020-03-27'
 title: 'FarmHub'
 github: ''
-external: 'https://farman.ng/'
+external: 'https://www.farman.ng/'
 tech:
   - React+vite
   - Tailwind css
