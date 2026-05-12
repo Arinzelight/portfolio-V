@@ -1,6 +1,6 @@
 ---
 date: '2025-09-01'
-title: 'Multivendor Shopping Platform'
+title: 'Horal Web App'
 github: 'Code is proprietary. Demo available upon request'
 external: 'https://www.horal.ng/'
 tech:

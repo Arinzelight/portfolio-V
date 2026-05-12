@@ -9,7 +9,7 @@ tech:
   - Mongo Db
   - Cloudinary
 
-showInProjects: true
+showInProjects: false
 ---
 
 Developed a full-stack Next.js news website that enables writers to publish content, with an admin dashboard for monitoring activities, managing drafts, and streamlining the editorial review process.
