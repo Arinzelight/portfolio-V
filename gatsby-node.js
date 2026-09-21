@@ -4,8 +4,10 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
+require('dotenv').config();
 const path = require('path');
 const _ = require('lodash');
+const express = require('express');
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
@@ -103,5 +105,19 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
         '@utils': path.resolve(__dirname, 'src/utils'),
       },
     },
+  });
+};
+
+exports.onCreateDevServer = ({ app }) => {
+  app.use(express.json());
+
+  app.post('/api/chat', async (req, res) => {
+    const chatHandler = require('./api/chat');
+    return chatHandler(req, res);
+  });
+
+  app.post('/api/tailor', async (req, res) => {
+    const tailorHandler = require('./api/tailor');
+    return tailorHandler(req, res);
   });
 };
