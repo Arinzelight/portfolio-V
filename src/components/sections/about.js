@@ -129,13 +129,13 @@ const About = () => {
     'JavaScript (ES6+)',
     'TypeScript',
     'React',
-    'NextJs',
-    'Node.js',
-    'Express JS',
+    'Next.js',
     'React Native',
-    'VueJs',
-    'Django',
-    'WordPress',
+    'Node.js',
+    'Express.js',
+    'Python / Django',
+    'PostgreSQL / Redis',
+    'Tailwind CSS',
   ];
 
   return (
@@ -146,22 +146,33 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm a results-driven Full-Stack Software Engineer with 4 years of experience
-              designing and delivering high-performance, scalable, and user-centric applications. I
-              create seamless digital experiences by integrating modern front-end frameworks with
-              robust back-end systems, building solutions that drive measurable business impact.
-              Passionate about innovation and problem solving, I have contributed to impactful
-              projects across e-commerce, fintech, and SaaS industries.
+              I’m a results-driven Full-Stack Software Engineer with over 4 years of experience
+              designing, building, and scaling high-performance web and mobile applications. My
+              journey into software engineering is backed by a solid analytical engineering
+              background, evolving into a dedication to crafting robust, user-centric systems that
+              drive measurable business impact.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://edubridge.com.ng/">consultant company</a>
-              {/* <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>*/}
-              . My primary focus is on building accessible, AI-powered Web3 blockchain products and
-              digital experiences for diverse clients
+              Fast-forward to today, and I’ve had the privilege of leading frontend architecture at{' '}
+              <a href="https://horal.ng/" target="_blank" rel="noreferrer">
+                Horal
+              </a>
+              , resolving critical payment and e-commerce integrations at{' '}
+              <a href="https://edubridge.com.ng/" target="_blank" rel="noreferrer">
+                Edubridge Consultants
+              </a>
+              , and mentoring emerging developers as an SE Tutor with the{' '}
+              <a href="https://www.alxafrica.com/" target="_blank" rel="noreferrer">
+                ALX Software Engineering
+              </a>{' '}
+              program.
+            </p>
+
+            <p>
+              My core focus is on delivering secure, full-stack digital experiences across
+              e-commerce, fintech, and SaaS — bridging responsive frontends (React, React Native)
+              with scalable backend APIs and reliable database systems.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

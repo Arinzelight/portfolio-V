@@ -40,6 +40,18 @@ const StyledHeroSection = styled.section`
     max-width: 540px;
   }
 
+  .cta-wrapper {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+    .email-link {
+      margin-top: 0;
+    }
+  }
+
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
@@ -61,24 +73,33 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Harry Ezinwa.</h2>;
-  const three = <h3 className="big-heading">I craft efficient digital solutions.</h3>;
+  const three = <h3 className="big-heading">I build scalable web & mobile products.</h3>;
   const four = (
     <>
       <p>
-        I am a software engineer with a passion for creating exceptional digital experiences,
-        blending development and design when needed. Currently, I focus on building accessible,
-        human-centered products at {''}
-        <a href="https://edubridge.com.ng/" target="_blank" rel="noreferrer">
-          Edubridge
+        I’m a Full-Stack Software Engineer and Frontend Team Lead with over 4 years of experience
+        building, scaling, and maintaining production-ready web and mobile applications. Currently,
+        I lead frontend engineering at{' '}
+        <a href="https://horal.ng/" target="_blank" rel="noreferrer">
+          Horal
         </a>
-        .
+        , delivering high-performance platforms across React, React Native, and robust backend APIs.
       </p>
     </>
   );
   const five = (
-    <a className="email-link" href="/#contact">
-      Contact Me!
-    </a>
+    <div className="cta-wrapper">
+      <a className="email-link" href="/#contact">
+        Get In Touch
+      </a>
+      <a
+        className="email-link"
+        href="https://drive.google.com/file/d/1IrWMXYApV_K3bwq_5yQsJY7ICM1_RIyA/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer">
+        View Resume
+      </a>
+    </div>
   );
 
   const items = [one, two, three, four, five];
