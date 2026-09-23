@@ -16,7 +16,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'www.linkedin.com/in/matrixcode',
+      url: 'https://www.linkedin.com/in/matrixcode/',
     },
     // {
     //   name: 'Codepen',
