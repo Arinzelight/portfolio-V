@@ -1,5 +1,5 @@
 ---
-date: '2024-11-01'
+date: '2025-08-01'
 title: 'HaidyAgroHub'
 external: 'https://haidyagro.ng'
 tech:

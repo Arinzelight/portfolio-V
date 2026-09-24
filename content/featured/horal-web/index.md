@@ -1,17 +1,16 @@
 ---
-date: '2025-09-01'
-title: 'Horal Web App'
-github: 'Code is proprietary. Demo available upon request'
-external: 'https://www.horal.ng/'
+date: '4'
+title: 'Horal Web'
+cover: './horal.jpeg'
+github: 'https://github.com/Arinzelight/'
+external: 'https://horal.ng/'
 tech:
   - React
-  - Tailwind
-  - JS
+  - Tailwind CSS
   - Redux
   - Django
   - PostgreSQL
   - Redis
-showInProjects: false
 ---
 
 Served as Frontend Team Lead and Full-Stack Developer with the Horal team, where I designed a scalable frontend architecture, integrated Paystack for secure payments, and implemented backend media storage using DigitalOcean Spaces.

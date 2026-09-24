@@ -59,7 +59,7 @@ Return a STRICT valid JSON object matching this schema:
   "keyStrengths": array of strings (3 concise bullet points highlighting why Harry fits this role),
   "recommendedProjects": array of objects [
     {
-      "name": string (project from Harry's portfolio, e.g., "Horal App", "Afridol", "MyTvShow", "Trovnews", or "HaidyAgroHub"),
+      "name": string (project from Harry's portfolio, e.g., "Horal Web", "Horal App", "Afridol", "MyTvShow", "Trovnews", or "HaidyAgroHub"),
       "reason": string (one sentence explaining how this project proves qualifications for this job)
     }
   ],
